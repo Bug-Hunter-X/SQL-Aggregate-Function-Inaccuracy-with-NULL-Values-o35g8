@@ -1,0 +1,1 @@
+This repository demonstrates a common SQL error involving `NULL` values and aggregate functions. The `bug.sql` file shows how `NULL` values can lead to inaccurate results when calculating averages, sums, etc. The `bugSolution.sql` file provides the corrected approach using functions like `COALESCE` or `ISNULL` to handle `NULL` values effectively.
